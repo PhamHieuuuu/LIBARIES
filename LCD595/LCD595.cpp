@@ -1,3 +1,4 @@
+//Written by Phamhieuu
 #include "LCD595.h"
 
 LCD595::LCD595(uint8_t dataPin, uint8_t clockPin, uint8_t latchPin)
