@@ -1,7 +1,7 @@
 // Code mẫu sử dung thư viện
 #include <LCD595.h>
 
-LCD595 lcd(9, 10, 8); // D9 = data, D10 = SH_CP, D8 = ST_CP,
+LCD595 lcd(9, 10, 8); // data, SH_CP, ST_CP,
 
 void setup() {
   lcd.begin();
